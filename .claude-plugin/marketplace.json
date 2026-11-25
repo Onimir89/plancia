@@ -1,0 +1,14 @@
+{
+  "name": "plancia",
+  "description": "Plancia, a control panel for Claude Code.",
+  "owner": {
+    "name": "Fabio Guida"
+  },
+  "plugins": [
+    {
+      "name": "plancia",
+      "source": "./",
+      "description": "Choose per project, or per chat, which skills, plugins, MCP servers, subagents, rule files and hooks are on, and keep the choice as presets."
+    }
+  ]
+}

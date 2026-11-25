@@ -1,0 +1,21 @@
+{
+  "name": "plancia",
+  "displayName": "Plancia",
+  "version": "1.0.0",
+  "description": "Choose per project, or per chat, which skills, plugins, MCP servers, subagents, rule files and hooks are on, and keep the choice as presets.",
+  "author": {
+    "name": "Fabio Guida"
+  },
+  "homepage": "https://github.com/Onimir89/plancia",
+  "repository": "https://github.com/Onimir89/plancia",
+  "license": "MIT",
+  "keywords": ["control-panel", "presets", "settings", "skills", "mcp", "subagents", "hooks", "context"],
+  "icon": "./icon.png",
+  "engines": {
+    "claude-code": ">=2.1.326"
+  },
+  "hooks": "./hooks/plancia.json",
+  "network": {
+    "hosts": []
+  }
+}

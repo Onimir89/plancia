@@ -1,0 +1,14 @@
+{
+  "name": "plancia",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "npm run test:core && npm run test:mod",
+    "test:core": "node --import ./spec/resolve.mjs --test spec/*.spec.ts",
+    "test:mod": "claude plugin test",
+    "check": "test -f .claude-plugin/types/claude-code/index.d.ts || { echo 'Mod types missing: open a session with claude --plugin-dir . (Claude Code writes them to .claude-plugin/types/)'; exit 1; } && npx --yes -p typescript@7.0.2 tsc -p ."
+  },
+  "engines": {
+    "node": ">=22.18"
+  }
+}
